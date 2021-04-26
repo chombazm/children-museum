@@ -5,6 +5,8 @@
 }
 
 a {
+	font-weight: bolder;
+	color: #f47c48;
 	text-decoration: none;
 }
 
@@ -29,11 +31,14 @@ body {
 
 nav {
 	width: 100%;
-	height: 40px;
-	background-color: lavender;
+	height: 132px;
+	box-shadow: 0 0 4px rgb(0 0 0 / 30%);
 
 }
 
+.logo-box img {
+	width: 132px;
+}
 
 .hero-section {
 	width: 100%;
@@ -46,21 +51,19 @@ nav {
 	width: 70%;
 	float: right;
 	display: flex;
+	padding-top: 70px;
 	justify-content: space-evenly;
 
 }
 
 .logo-box {
 	width: 30%;
-	height: 40px;
 	float: left;
-	background-color: aliceblue;
 }
 
 .links-nav li {
 	float: left;
 	list-style: none;
-	 /* margin-left: 10%; */
 }
 
 footer {
@@ -85,3 +88,24 @@ footer ul li {
 	float: left;
 }
 
+.main-central {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+	margin-top: 30px;
+
+}
+.cb {
+	clear: both;
+}
+.box-content {
+	flex: 1;
+	text-align: center;
+}
+.box-content img {
+	width: 100%;
+}
+.box-content p {
+	padding: 10px;
+}
