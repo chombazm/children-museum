@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	/* background-color: red; */
+}
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+
+nav {
+	width: 100%;
+	height: 40px;
+	background-color: lavender;
+
+}
+
+
+.hero-section {
+	width: 100%;
+	height: auto;
+}
+.hero-section img {
+	width: 100%;
+}
+.links-nav {
+	width: 70%;
+	float: right;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.logo-box {
+	width: 30%;
+	height: 40px;
+	float: left;
+	background-color: aliceblue;
+}
+
+.links-nav li {
+	float: left;
+	list-style: none;
+	 /* margin-left: 10%; */
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	padding: 60px 0.9% 60px 0.9%;
+	
+
+}
+footer ul {
+	width: 50%;
+	float: right;
+}
+
+footer ul li {
+	float: right;
+	margin-left: 10%;
+
+}
+.copyrights {
+	width: 50%;
+	float: left;
+}
+
